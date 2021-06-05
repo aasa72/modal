@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+
+#modal {
+  max-width: 500px;
+  background: paleturquoise;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#overlay {
+  display: none;
+  margin-top: 15%;
+}
+
+#open-section {
+  display: block;
+  margin-top: 15%;
+}
+
+p {
+  font-style: italic;
+}
+
+ /*button styles*/
+
+#open-modal,
+#close-modal {
+  display: inline-block;
+  background: cornflowerblue;
+  color: #252525;
+  font-size: 30px;
+  padding: 10px 25px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#open-modal:hover,
+#open-modal:focus,
+#close-modal:hover,
+#close-modal:focus {
+  background: #fff8dc;
+}
